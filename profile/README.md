@@ -13,18 +13,17 @@ You can get started on your own account with the Teachbooks Template (https://gi
 For transferring books you already have somewhere elso on GitHub we propose:
 - If the old repository is not shared with others yet:
   - [Transfer repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) to the TUDelft-Books organization.
-  - Reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`
-  - Run the deploy-book-orkflow from `Actions` - `All workflows` - `call-deploy-book` - `Run workflow` - `Run workflow`
-  - Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
 - If the old repository is already shared:
   - Use the [GitHub Importer](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) to add it to TUDelft-Books
   - Adding a note: 'Moved to `<link to new repository in TUDelft-books organization>`' to `README.md`
   - Adding a note: 'Moved to `<link to new repository in TUDelft-books organization>`' to the description of the repository on GitHub
   - Adding a banner to the book, see code below
   - Archive the old repository
-  - Reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
+  - Reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`
+  - Copy [repository variables for deploy-book workflow](https://github.com/TeachBooks/deploy-book-workflow?tab=readme-ov-file#customize-the-workflow-teachbook-releasing-settings) from old repository
   - Run the deploy-book-orkflow from `Actions` - `All workflows` - `call-deploy-book` - `Run workflow` - `Run workflow`
   - Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
+  - Copy other GitHub repository settings from old repository to new one.
 ```ymal
 sphinx:
   config:
