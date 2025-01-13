@@ -34,7 +34,3 @@ sphinx:
       announcement : "This book has been moved to: <a href='https://oit.tudelft.nl/<new repository in TUDelft-book organization>' style='color:white'>https://oit.tudelft.nl/CT1000/2024</a>."
       ...
 ```
-   - Archive the old repository
-   - Reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
-   - Run the deploy-book-orkflow from `Actions` - `All workflows` - `call-deploy-book` - `Run workflow` - `Run workflow`
-   - Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
