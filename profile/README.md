@@ -8,7 +8,7 @@ if you'd like to have your book here, request member access to the organisation 
 
 The owners have a shared responsibility of adding people to the organisation, maintaining the homepage https://oit.tudelft.nl/ and they can be approached for technical questions. This list of owners will grow soon! If you'd like to be an owner, reach out to one of the existing owners!
 
-You can get started on your own account with the Teachbooks Template (https://github.com/TeachBooks/template) and transfer your repository to this organisation as soon as you're a member. After transferring, your book is online at https://oit.tudelft.nl/<book_repository>! As soon as you're a member, you can add new books yourself.
+You can get started on your own account with the template provided by TeachBooks, converted to be used at TU Delft (https://github.com/TUDelft-books/TUDelft-template) and transfer your repository to this organisation as soon as you're a member. After transferring, your book is online at https://oit.tudelft.nl/<book_repository>! As soon as you're a member, you can add new books yourself.
 
 For transferring books you already have somewhere elso on GitHub we propose:
 - If the old repository is not shared with others yet:
