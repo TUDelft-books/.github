@@ -23,3 +23,4 @@ sphinx:
       announcement : "This book has been moved to: <a href='https://oit.tudelft.nl/<new repository in TUDelft-book organization>' style='color:white'>https://oit.tudelft.nl/CT1000/2024</a>."
       ...
 ```
+- Archiving the old repository
