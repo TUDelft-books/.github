@@ -12,7 +12,7 @@ You can get started on your own account with the Teachbooks Template (https://gi
 
 For transferring books you already have somewhere elso on GitHub we propose:
 - If the old repository is not shared with others yet:
-  - [Transfer repository] to the TUDelft-Books organization.
+  - [Transfer repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) to the TUDelft-Books organization.
   - Reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`
   - Run the deploy-book-orkflow from `Actions` - `All workflows` - `call-deploy-book` - `Run workflow` - `Run workflow`
   - Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
