@@ -18,7 +18,7 @@ For transferring books you already have somewhere elso on GitHub we propose:
   - In the old repoistory:
     - Adding a note: 'Moved to `<link to new repository in TUDelft-books organization>`' to `README.md`
     - Adding a note: 'Moved to `<link to new repository in TUDelft-books organization>`' to the description of the repository on GitHub
-    - Adding a banner to the book, see code below
+    - Adding a banner to the book with a link to your new online book, see code below
     - Archive the old repository
   - In the new repository in the TUDelft-books organization:
     - reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`
