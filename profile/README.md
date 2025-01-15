@@ -14,7 +14,7 @@ For transferring books you already have somewhere elso on GitHub we propose:
 - If the old repository is not shared with others yet:
   - [Transfer repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) to the TUDelft-Books organization.
 - If the old repository is already shared:
-  - Use the [GitHub Importer](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) to add it to TUDelft-Books
+  - Use the [GitHub Importer](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) to add it to TUDelft-Books. If your repository is not public, you have to add credentials or create an empty repo and push your local repository to this new one.
   - In the old repoistory:
     - Adding a note: 'Moved to `<link to new repository in TUDelft-books organization>`' to `README.md`
     - Adding a note: 'Moved to `<link to new repository in TUDelft-books organization>`' to the description of the repository on GitHub
@@ -22,6 +22,7 @@ For transferring books you already have somewhere elso on GitHub we propose:
     - Archive the old repository
   - In the new repository in the TUDelft-books organization:
     - reactivate GitHub pages from actions by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`
+    - If your new repository is private: create a new Personal Access Token (classic) with at least the scopes `repo`, `read:org` and `gist` as described in the [github documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), and add this token with the name `GH_PAT` as a `Repository secret` or `Organization secret` (`Settings` - `Secrets and variables` > `Actions` > `Repository secrets` or `Organization secrets`.)
     - Copy [repository variables for deploy-book workflow](https://github.com/TeachBooks/deploy-book-workflow?tab=readme-ov-file#customize-the-workflow-teachbook-releasing-settings) from old repository
     - Run the deploy-book-orkflow from `Actions` - `All workflows` - `call-deploy-book` - `Run workflow` - `Run workflow`
     - Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
