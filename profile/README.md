@@ -27,6 +27,9 @@ For transferring books you already have somewhere elso on GitHub we propose:
     - Run the deploy-book-orkflow from `Actions` - `All workflows` - `call-deploy-book` - `Run workflow` - `Run workflow`
     - Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
     - Copy other GitHub-specific repository settings from the old repository.
+    - Adapt the `baseurl` and `repository_url` in `_config.yml`:
+      - `baseurl        : "https://oit.tudelft.nl/<new repository name>"`
+      - `repository_url : "https://github.com/TUDelft-books/<new repository name>"` 
 ```ymal
 sphinx:
   config:
