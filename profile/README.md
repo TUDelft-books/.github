@@ -1,6 +1,10 @@
 # Welcome!
 
-This organization contains open interactive textbooks created by employees from Delft University of Technology that are being hosted on GitHub and GitHub Pages. Book websites are shown on: https://oit.tudelft.nl/.
+This organization contains open interactive textbooks created by employees from Delft University of Technology that are being hosted on GitHub and GitHub Pages. Book websites are shown on: https://oit.tudelft.nl/. Furthermore, this homepage lists TU Delft open interactive textbooks hosted on various other place, among others:
+- other GitHub personal/organizations with corresponding GitHub pages
+- EWI pages (prime.pages.ewi.tudelft.nl)
+- published TU Delft OPEN Interactive textbooks (interactivetextbooks.tudelft.nl)
+- ...
 
 if you'd like to have your book here, request member access to the organisation at one of the owners:
 - [Dennis van den Ouden-van der Horst](mailto:d.denouden-vanderhorst@tudelft.nl)
