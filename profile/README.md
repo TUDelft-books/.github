@@ -1,7 +1,5 @@
 # Welcome!
 
-# Welcome!
-
 This organization contains open interactive course modules created by employees from Delft University of Technology that are being hosted on GitHub and GitHub Pages. All open interactive course modules are shown on: https://oit.tudelft.nl/. Furthermore, this homepage lists TU Delft open interactive learning material (both open interactive course modules and open interactive textbooks) hosted on various other places, among others:
 
 - other GitHub personal/organizations with corresponding GitHub pages
