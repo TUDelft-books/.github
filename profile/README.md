@@ -1,6 +1,6 @@
 # Welcome!
 
-This organization contains open interactive course modules created by employees from Delft University of Technology that are being hosted on GitHub and GitHub Pages. All open interactive course modules are shown on: https://oit.tudelft.nl/. Furthermore, this homepage lists TU Delft open interactive learning material (both open interactive course modules and open interactive textbooks) hosted on various other places, among others:
+This organization contains open interactive course modules created by employees from Delft University of Technology that are being hosted on GitHub and GitHub Pages. These open interactive course modules are created using [JupyterBook 1](https://jupyterbook.org/v1) (based on [Sphinx](https://www.sphinx-doc.org/)), [TeachBooks](https://teachbooks.io/) and/or [Jupyterbook 2](https://jupyterbook.org/stable/) (based on [MyST](https://mystmd.org/)). All open interactive course modules are shown on: https://oit.tudelft.nl/. Furthermore, this homepage lists TU Delft open interactive learning material (both open interactive course modules and open interactive textbooks) hosted on various other places, among others:
 
 - other GitHub personal/organizations with corresponding GitHub pages
 - EWI pages (prime.pages.ewi.tudelft.nl)
