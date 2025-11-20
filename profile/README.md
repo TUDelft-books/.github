@@ -10,7 +10,8 @@ This organization contains open interactive course modules created by employees 
 if you'd like to have open interactive learning material mentioned or added here, request member access to the organisation at one of the owners:
 
 - [Dennis van den Ouden-van der Horst](mailto:d.denouden-vanderhorst@tudelft.nl)
-- [Tom van Woudenberg](mailto:t.r.vanwoudenberg@tudelft.nl) 
+- [Tom van Woudenberg](mailto:t.r.vanwoudenberg@tudelft.nl)
+- [Reid Sczerba](mailto:R.B.Sczerba@tudelft.nl)
 
 The owners have a shared responsibility of adding people to the organisation, maintaining the homepage https://oit.tudelft.nl/ and they can be approached for technical questions. This list of owners will grow soon! If you'd like to be an owner, reach out to one of the existing owners!
 
